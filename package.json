@@ -2,7 +2,7 @@
   "name": "firebase-tasks",
   "version": "1.0.0",
   "description": "Simple React app using Firebase to store and read user entered tasks",
-  "main": "src/index.js",
+  "source": "src/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prebuild": "rm -rf dist",
@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/Ruslanmsv/firebase-tasks#readme",
   "devDependencies": {
-    "parcel": "^2.7.0"
+    "parcel": "^2.7.0",
+    "process": "^0.11.10"
   },
   "dependencies": {
     "react": "^18.2.0",
