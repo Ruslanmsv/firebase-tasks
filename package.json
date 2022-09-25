@@ -1,0 +1,29 @@
+{
+  "name": "firebase-tasks",
+  "version": "1.0.0",
+  "description": "Simple React app using Firebase to store and read user entered tasks",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild": "rm -rf dist",
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ruslanmsv/firebase-tasks.git"
+  },
+  "author": "Ruslan Musaev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ruslanmsv/firebase-tasks/issues"
+  },
+  "homepage": "https://github.com/Ruslanmsv/firebase-tasks#readme",
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
