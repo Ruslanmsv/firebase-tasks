@@ -1,5 +1,5 @@
 const Task = (props) => {
-  return <li>{props.task}</li>;
+  return <li>{props.name}</li>;
 };
 
 export default Task;
